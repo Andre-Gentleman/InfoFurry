@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@400;500;700;900&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0;
+    background: #F5FFFA;
+    color: #000000;
+    font-family: 'Roboto', sans-serif;
+}
+
+.header {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.link-active {
+    background: #C6E3C6;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.link:hover {
+    background-color: #C6E3C6;
+    color: white;
+    transition: all 0.4s;
+}
+
+.link {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    text-decoration: none;
+    color: #000000;
+    font-size: 28px;
+    padding: 40px 60px;
+    font-weight: 900;
+}
+
+.info {
+    font-weight: 700;
+    text-align: center;
+    margin: 10px;
+}
+
+.wrapper-image {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+}
+
+.wrapper-image__img {
+    width: 100%;
+}
+
+.container {
+    width: 98%;
+    max-width: 1920px;
+    margin: 0 auto;
+}
+
+/* Страница информации */
+
+.btn {
+    text-decoration: none;
+    color: #000000;
+    font-size: 28px;
+    padding: 40px 60px;
+    font-weight: 700;
+    background-color: #BDFFBD;;
+    padding: 10px;
+    width: 50%;
+    border-radius: 10px;
+    transition: all 0.4s;
+    display: inline-block;
+    margin: 10px;
+
+}
+
+.btn:hover {
+    background-color: #94f094;
+    color: white;
+}
+
+/*! Страница информации !*/
+
+.infofurry {
+    display: flex;
+    gap: 20px;
+    background-color: Honeydew;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.container-furry {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+    padding-top: 50px;
+}
+
+.nav-sities {
+    display: flex;
+    align-items: stretch;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding-top: 50px;
+}
+
+.button-sities {
+    text-decoration: none;
+    color: #000000;
+    font-weight: 900;
+    font-size: 30px;
+    background-color: Honeydew;
+    padding: 20px;
+    width: 20%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 25px;
+}
+
+.textinfofurry {
+    display: flex;
+    flex-direction:column;
+    font-weight: 700;
+    text-align: center;
+    gap: 20px;
+}
+
+.persimgfurry {
+    border-radius: 10px;
+    width: 161px;
+    height: auto;
+    object-fit: cover;
+}
+
+.header-name {
+    font-weight: 900;
+    text-align: center;
+    font-size: 50px;
+    padding: 40px 0px;
+}
+
+.button-sities:hover {
+    background-color: #C6E3C6;
+    color: white;
+    transition: all 0.4s;
+}
+
+.text-info-autors {
+    display: flex;
+    flex-direction:column;
+    font-weight: 700;
+    text-align: center;
+    gap: 20px;
+}
+
+.infotext {
+    text-align: center;
+    font-weight: 700;
+    font-size: 20px;
+}
