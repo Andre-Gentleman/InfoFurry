@@ -41,7 +41,7 @@ body {
     display: flex;
     flex-direction:column;
     text-align: center;
-    background-color: #f0fff0;
+    background-color: rgb(225, 253, 225);
     padding: 10px;
     border-radius: 25px;
 }
