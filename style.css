@@ -95,7 +95,7 @@ body {
 .infofurry {
     display: flex;
     gap: 20px;
-    background-color: Honeydew;
+    background-color: rgb(225, 253, 225);
     padding: 10px;
     border-radius: 10px;
 }
