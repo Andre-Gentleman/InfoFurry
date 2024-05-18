@@ -115,13 +115,15 @@ body {
     background: white;
     opacity: 0;
     max-height: 0;
-    transition: all 0.3s;
+    transition: all 0.5s;
+    transform: translateY(10000px);
 }
 
 
 .mobile-nav.active {
     opacity: 1;
     max-height: 300px;
+    transform: translateY(0);
 }
 
 .mobile-nav>.link {
