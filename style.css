@@ -267,10 +267,10 @@ body {
 
 footer {
     background-color: #C6E3C6;
-    height: auto;
     width: 100%;
-    padding: 10px auto;
-    margin: 10px 0 0 0;
+    position: relative;
+    bottom: 0;
+    height: auto;
 }
 
 .ap {
