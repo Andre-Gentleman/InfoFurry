@@ -268,7 +268,7 @@ body {
 footer {
     background-color: #C6E3C6;
     width: 100%;
-    position: relative;
+    position: fixed;
     bottom: 0;
     height: auto;
 }
