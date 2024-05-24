@@ -199,6 +199,10 @@ body {
     padding-top: 50px;
 }
 
+.reference {
+    max-width: 100%;
+}
+
 .nav-sities {
     display: flex;
     align-items: stretch;
